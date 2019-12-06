@@ -9,4 +9,6 @@ http://vision.cs.stonybrook.edu/~lehhou/tcga/medraw0/images/
 
 2). Put patches in images/
 
-3). Human labels will be in upload/
+3). Access url: http://.../medraw.php
+
+4). Human labels will be in upload/
