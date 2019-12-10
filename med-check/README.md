@@ -10,7 +10,7 @@ PHP >= 5.5
 To use:
 
 1). Put patches in patches_cancertype/. Filenames must be 1.png, 2.png, 3.png, ...  
-For example, if the cancer type is brca, then you can put patches in patches_luad.
+For example, if the cancer type is brca, then you can put patches in patches_brca. I have put two example images.
 
 2). Access url: http://..../view_patches.php?ctype=cancertype&page=0
 
