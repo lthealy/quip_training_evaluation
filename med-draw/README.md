@@ -38,8 +38,7 @@ To use:
 python medraw_output.py
 ```
 
-Output:  
-  output/1_final_seg.png, output/2_final_seg.png  
+Output: output/1_final_seg.png, output/2_final_seg.png  
 For visualizing results:  
-  output/1_final_seg_visual.png, output/2_final_seg_visual.png
-  (output/1_final_seg_visual.png)  (output/2_final_seg_visual.png)
+  [output/1_final_seg_visual.png](output/1_final_seg_visual.png)
+  [output/2_final_seg_visual.png](output/2_final_seg_visual.png)
