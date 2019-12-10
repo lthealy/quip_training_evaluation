@@ -18,6 +18,10 @@ http://vision.cs.stonybrook.edu/~lehhou/tcga/medraw0/images/
 ![images/1.png](images/1.png)
 ![images/2.png](images/2.png)
 
+The original version of the images are under ./auto_seg/
+![auto_segs/1.png](auto_segs/1.png)
+![auto_segs/2.png](auto_segs/2.png)
+
 3). Access url: http://.../medraw.php
 
 4). Human labels will be in upload/
@@ -36,7 +40,7 @@ skimage
 
 To use:
 
-1). Upload the original image and automatic segmentation results in ./auto_segs/
+1). Make sure that the original images and automatic segmentation results are in ./auto_segs/
 
 2). Run the following code:
 ```python
