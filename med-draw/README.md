@@ -20,8 +20,8 @@ http://vision.cs.stonybrook.edu/~lehhou/tcga/medraw0/images/
 
 4). Human labels will be in upload/
 
-
-We also provide a script for processing labels.  
+## Postprocessing labels.
+We also provide an example script for processing labels.  
 Requirements for running label processing code (python):
 
 ```python
