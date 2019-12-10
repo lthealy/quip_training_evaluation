@@ -1,6 +1,9 @@
 # Med-draw: tool for manual segmentation
 
-Requirements for hosting web page:
+This software is for collecting manual segmentations.
+
+## Web app.
+Requirements for hosting the web app:
 
 ```javascript
 Apache2
