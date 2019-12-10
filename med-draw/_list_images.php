@@ -21,7 +21,7 @@
                 break;
             }
         }
-        echo '<option value=http://vision.cs.stonybrook.edu/~lehhou/tcga/medraw0/images/'.$fn.' style="color:'.$clr.'">'.$fn.'</option>';
+        echo '<option value=http://vision.cs.stonybrook.edu/~lehhou/tcga/medraw0/github/quip_training_evaluation/med-draw/images/'.$fn.' style="color:'.$clr.'">'.$fn.'</option>';
     }
     echo '</select>';
 ?> 
