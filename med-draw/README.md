@@ -14,13 +14,13 @@ To use:
 http://vision.cs.stonybrook.edu/~lehhou/tcga/medraw0/images/
 ```
 
-2). Put patches in images/. I put two example images with automatic segmentation results:
+2). Put patches in images/. I put two example images with automatic segmentation results:  
 ![images/1.png](images/1.png)
 ![images/2.png](images/2.png)
 
-The original version of the images are under ./auto_seg/
-![auto_segs/1.png](auto_segs/1.png)
-![auto_segs/2.png](auto_segs/2.png)
+The original version of the images are under ./auto_seg/  
+![auto_segs/1_original.png](auto_segs/1_original.png)
+![auto_segs/2_original.png](auto_segs/2_original.png)
 
 3). Access url: http://.../medraw.php
 
