@@ -14,7 +14,9 @@ To use:
 http://vision.cs.stonybrook.edu/~lehhou/tcga/medraw0/images/
 ```
 
-2). Put patches in images/
+2). Put patches in images/. I put two example images with automatic segmentation results:
+![images/1.png](images/1.png)
+![images/2.png](images/2.png)
 
 3). Access url: http://.../medraw.php
 
@@ -34,6 +36,9 @@ skimage
 
 To use:
 
+1). Upload the original image and automatic segmentation results in ./auto_segs/
+
+2). Run the following code:
 ```python
 python medraw_output.py
 ```
