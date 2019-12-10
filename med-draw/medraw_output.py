@@ -8,7 +8,7 @@ from skimage.color import label2rgb
 
 for f_idx in [1, 2]:  # process two images
     auto_label = np.array(Image.open('auto_segs/{}_auto_seg.png'.format(f_idx)))
-    he_image = np.array(Image.open('auto_segs/{}.png'.format(f_idx)))
+    he_image = np.array(Image.open('auto_segs/{}_original.png'.format(f_idx)))
 
     fn = 'upload/mask/{}_mask.png'.format(f_idx)
     if path.exists(fn):
