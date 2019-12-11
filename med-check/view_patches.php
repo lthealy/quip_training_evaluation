@@ -29,18 +29,25 @@ print "<body onScroll=\"document.cookie='y=' + window.pageYOffset\" onLoad='wind
 <?PHP
 $page = $_GET['page'];
 $ctype = $_GET['ctype'];
+
+$N_per_page = 6;
+$folder = sprintf("patches_%s", $ctype);
 ?>
 
-<a href=view_patches.php?ctype=<?PHP printf("%s", $ctype);?>&page=<?PHP printf("%d", $page - 1);?>>Prev Page</a>
+<a href=view_patches.php?ctype=<?PHP printf("%s", $ctype);?>&page=<?PHP printf("%d", max(0, $page - 1));?>>Prev Page</a>
 <a href=view_patches.php?ctype=<?PHP printf("%s", $ctype);?>&page=<?PHP printf("%d", $page + 1);?>>Next Page</a>
 <p>
-<?PHP printf('You are in tumor [<b>%s</b>], page [<b>%d</b>]', $ctype, $page); ?>
+<?PHP
+$im_id = ($page + 2) * $N_per_page;
+if (file_exists(sprintf('%s/%d.png', $folder, $im_id))) {
+    printf('You are in tumor [<b>%s</b>], page [<b>%d</b>]', $ctype, $page);
+} else {
+    printf('You are in tumor [<b>%s</b>], page [<b>%d</b>]. <b>You have reached to the last page.</b>', $ctype, $page);
+}
+?>
 <p>
 
 <?PHP
-$N_per_page = 6;
-$folder = sprintf("patches_%s", $ctype);
-
 printf("<section class=\"page_container\">\n\n");
 for ($i = 1; $i <= $N_per_page; ++$i) {
     $im_id = $i + $page * $N_per_page;
