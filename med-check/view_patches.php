@@ -76,6 +76,8 @@ for ($i = 1; $i <= $N_per_page; ++$i) {
         printf("<img height=400px src=\"%s/%d.png\"/>\n", $folder, $im_id);
         printf("</div>\n");
         printf("</section>\n\n");
+    } else {
+        break;
     }
 }
 printf("</section>\n");
