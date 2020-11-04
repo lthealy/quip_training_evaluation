@@ -1,4 +1,4 @@
-# Med-draw: tool for manual classification
+# Med-check: tool for manual classification
 
 Requirements:
 
